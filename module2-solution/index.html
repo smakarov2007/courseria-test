@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>module2-solution</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h1 {
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 175%;
+    }
+    div#container {
+      position: relative;
+      top: 60px;
+    }
+    p.title {
+      width: 150px;
+      height: 30px;
+      border: 1px solid black;
+      font-weight: bold;
+      font-size: 1.25em;
+      text-align: center;
+      padding: 2px;
+    }
+    p.text {
+      clear: right;
+      float: left;
+      margin: 10px;
+    }
+    #p1 {
+      background-color: #A52A2A;
+      clear: left;
+      float: right;
+      color: white;
+    }
+    #p2 {
+      background-color: #DEB887;
+      clear: left;
+      float: right;
+    }
+    #p3 {
+      background-color: #5F9EA0;
+      clear: left;
+      float: right;
+    }
+    /********** Desktop **********/
+    @media (min-width: 992px) { 
+      .col-lg-4 {
+        float: left;
+        border: 1px solid black;
+        margin: 0 0.5% 0 0.5%;
+        background-color: gray;
+        width: 32.33%;}
+    }
+    /********** Tablet **********/
+    @media (min-width: 768px) and (max-width: 991px) {
+      .col-md-6, .col-md-12 {
+        float: left;
+        border: 1px solid black;
+        background-color: gray;
+        margin: 1%;}
+      .col-md-6 {width: 48%;}
+      .col-md-12 {width: 98%;}
+      }
+    
+    /********** Mobile **********/
+    @media (max-width: 767px) {
+      .col-sm-12 {
+        float: left;
+        border: 1px solid black;
+        background-color: gray;
+        margin: 1%;
+        width: 98%;}
+    }
+  </style>
+</head>
+<body>
+  <h1>Our Menu</h1>
+  <div id="container">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <p class="title" id="p1">Chicken</p>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis.</p>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <p class="title" id="p2">Beef</p>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis.</p>
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12">
+      <p class="title" id="p3">Sushi</p>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit error quis ab perspiciatis eos inventore recusandae iste itaque numquam facilis, tenetur. Doloribus officiis quae facilis, nisi, ex similique. Animi, perferendis.</p>
+    </div>
+  </div>
+</body>
+</html>
