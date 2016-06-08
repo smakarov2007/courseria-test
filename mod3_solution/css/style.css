@@ -1,0 +1,40 @@
+.navbar-brand {
+	padding-top: 20px;
+}
+
+.navbar-brand h1 {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.5;
+	color: black;
+	font-weight: bold;
+}
+#Upper {
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 70px;
+}
+.navbar, .navbar-header button.navbar-toggle {
+	border: 1px solid black;
+	background-color: #87ceeb;
+}
+li {
+	border: 1px solid black;
+	font-size: 1.2em;
+	color: black;
+	background-color: #ffefd5;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+.text {
+	background-color: #f5deb3;
+	margin: 10px;
+	color: black;
+}
+p.text-center, h3 {
+	font-size: 1.8em;
+	font-weight: bold;
+}
