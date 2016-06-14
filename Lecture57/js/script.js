@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded",
         
         // Call server to get the name
         $ajaxUtils
-          .sendGetRequest("/Users/smakarov/courseria-test/examples/Lecture57/data/name.txt", 
+          .sendGetRequest("/data/name.txt", 
             function (request) {
               var name = request.responseText;
 
